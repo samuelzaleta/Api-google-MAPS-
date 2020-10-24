@@ -14,8 +14,8 @@ function initMap() {
 // Loop through the results array and place a marker for each
 // set of coordinates.
     const flightPlanCoordinates = [
-        { lat: 19.030479, lng: -98.182609 },
-        { lat: 19.372363, lng: -99.215443},
+        uluru,
+        latLng,
     ];
     const flightPath = new google.maps.Polyline({
         path: flightPlanCoordinates,
@@ -27,8 +27,8 @@ function initMap() {
     flightPath.setMap(map);
 
     const flightPlanCoordinates1 = [
-        { lat: 19.030479, lng: -98.182609 },
-        { lat:19.042934, lng:-98.197597},
+        uluru,
+        latLng1,
     ];
     const flightPath1 = new google.maps.Polyline({
         path: flightPlanCoordinates1,
@@ -40,8 +40,8 @@ function initMap() {
     flightPath1.setMap(map);
 
     const flightPlanCoordinates2 = [
-        { lat: 19.030479, lng: -98.182609 },
-        { lat:19.3792553, lng:-97.6107005},
+        uluru,
+        latLng2,
     ];
     const flightPath2 = new google.maps.Polyline({
         path: flightPlanCoordinates2,
@@ -53,8 +53,8 @@ function initMap() {
     flightPath2.setMap(map);
 
     const flightPlanCoordinates3 = [
-        { lat: 19.372363, lng: -99.215443 },
-        { lat:19.3792553, lng:-97.6107005},
+        latLng,
+        latLng2,
     ];
     const flightPath3 = new google.maps.Polyline({
         path: flightPlanCoordinates3,
